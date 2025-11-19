@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Luis David Florez</title>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="logo">Luis David Florez</a>
+    <div class="menu-icon" id="menu-icon">
+      <i class='bx bx-menu'></i>
+    </div>
+    <ul>
+      <li><a href="#home" data-i18n="nav_home">Inicio</a></li>
+      <li><a href="#about" data-i18n="nav_about">Sobre Mi</a></li>
+      <li><a href="#portfolio" data-i18n="nav_portfolio">Servicios</a></li>
+      <li><a href="#contact" data-i18n="nav_contact">Contacto</a></li>
+    </ul>
+  </nav>
+
+    <div class="bars-animation">
+            <div class="bar" style="--i:6;"></div>
+            <div class="bar" style="--i:5;"></div>
+            <div class="bar" style="--i:4;"></div>
+            <div class="bar" style="--i:3;"></div>
+            <div class="bar" style="--i:2;"></div>
+            <div class="bar" style="--i:1;"></div>
+    </div>
+
+    <section class="home" id="home">
+      <video class="home-video" src="assets/bg-vid.mp4" autoplay muted loop playsinline preload="auto" aria-hidden="true"></video>
+        <div class="home-info">
+            <h1 data-i18n="home_title">Luis David Flórez</h1>
+            <h2>
+                <span data-i18n="home_we_are" class="static-span">Soy</span>
+                <span style="--i:2" data-i18n="home_span1" data-text="Director Comercial" class="animated-span">Director Comercial</span>
+                <br>
+                <span style="--i:1" data-i18n="home_span2" data-text="Closer Especializado" class="animated-span">Closer Especializado</span>
+            </h2>
+            <p data-i18n="home_desc">Dirección Comercial y consultoría estratégica</p>
+            <div class="btn-sci">
+        <a href="#" class="btn" data-i18n="home_save_contact">Contacta me</a>
+        <div class="sci">
+          <a href="mailto:luisda262003@gmail.com">
+            <i class='bx bx-envelope'></i>
+          </a>
+          <a href="https://www.instagram.com/luisda_03?utm_source=qr" target="_blank">
+            <i class='bx bxl-instagram'></i>
+          </a>
+        </div>
+            </div>
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="/assets/profileLuisFlorez.webp" alt="logo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="assets/profileLuisFlorez.webp" alt="profile" />
+      </div>
+      <div class="about-content">
+        <h2 class="heading" data-i18n="about_title">Sombre <span class="bg-gradient-1">Mi</span></h2>
+        <p data-i18n="about_desc">
+          Soy Luis David Flórez, Director Comercial y Closer Especializado en ventas High Ticket. He liderado y entrenado equipos de ventas dentro de la industria educativa y transformacional, alcanzando facturaciones superiores a 500.000 USD en menos de 6 meses gracias a procesos comerciales claros, cultura de alto desempeño y estrategia orientada a resultados.
+        </p>
+        <a href="#contacto">
+          <button class="btn" data-i18n="about_btn">Contactame</button>
+        </a>
+      </div>
+    </section>
+
+    <section id="portfolio" class="projects">
+  <h2 class="heading" data-i18n="projects_title">Ser<span class="bg-gradient-1">vicios</span></h2>
+      <div class="projects-box">
+        <div class="project-card">
+          <img src="/assets/banner1-l.webp" alt="logo">
+          <h3 data-i18n="project1_title">Dirección Comercial y consultoría estratégica</h3>
+          <p data-i18n="project1_desc">
+            Desarrollo planes comerciales integrales, alineando marketing, ventas y postventa para acelerar el crecimiento sin perder rentabilidad.
+          </p>
+        </div>
+        <div class="project-card">
+          <img src="/assets/banner2-l.webp" alt="eco">
+          <h3 data-i18n="project2_title">Entrenamiento, supervisión y optimización de equipos de ventas</h3>
+          <p data-i18n="project2_desc">
+            Diseño academias internas, métricas claras y rutinas de seguimiento que convierten a los equipos en máquinas de conversión consistentes.
+          </p>
+        </div>
+        <div class="project-card">
+            <img src="/assets/banner3-l.webp" alt="solutions">
+            <h3 data-i18n="project3_title">Cierre profesional para programas High Ticket</h3>
+            <p data-i18n="project3_desc">
+              Acompaño a leads calificados desde la llamada diagnóstica hasta el pago, aplicando frameworks de closing ético orientado a resultados.
+            </p>
+        </div>
+        <div class="project-card">
+            <img src="/assets/banner4-l.webp" alt="solutions">
+            <h3 data-i18n="project3_title">Diseño e implementación de procesos y sistemas comerciales</h3>
+            <p data-i18n="project3_desc">
+              Mapeo el journey del cliente, automatizo flujos en CRM y creo dashboards accionables que permiten decisiones ágiles.
+            </p>
+        </div>
+        <div class="project-card">
+            <img src="/assets/banner5-l.webp" alt="solutions">
+            <h3 data-i18n="project3_title">Mentoría para closers, líderes comerciales y negocios educativos</h3>
+            <p data-i18n="project3_desc">
+              Brindo sesiones 1 a 1 y acompañamiento grupal para elevar habilidades de liderazgo, KPIs y performance en lanzamientos educativos.
+            </p>
+        </div>
+       
+      </div>
+    </section>
+
+  
+
+    <section class="contact" id="contact">
+      <h2 class="heading" data-i18n="contact_title">Contacta<span class="bg-gradient-1">me</span></h2>
+      <div class="contact-content">
+        <div class="social-icons">
+          <ul>
+            <li>
+              <a href="mailto:luisda262003@gmail.com">
+                <i class='bx bx-envelope'></i>
+              </a>
+              <span class="tag-contact" data-i18n="contact_email">cesaraugustocera@gmail.com</span>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/luisda_03?utm_source=qr" target="_blank">
+                <i class='bx bxl-instagram'></i>
+              </a>
+              <span class="tag-contact" data-i18n="contact_instagram">@luisda_03</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="footer">
+  <p class="copyright" data-i18n="footer_copy">&copy; Stiven TC 2025</p>
+    </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+  
+
+</body>
+</html>
